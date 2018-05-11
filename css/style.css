@@ -1,0 +1,75 @@
+@font-face{
+	font-family: 'logo';
+	src: url(../fonts/logo.ttf);
+}
+
+.font-all{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.font-all2{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.font-pr-marca{
+	font-family: 'logo', sans-serif;
+	font-size: 2em;
+}
+
+.font-seg-marca{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.youtube-hvr{
+	transition: .3s;
+	color: rgba(0,0,0,.6);
+	padding: .5rem .5rem;
+}
+.youtube-hvr:hover{
+	color: #cc181e;	
+}
+
+.face-hvr{
+	transition: .3s;
+	color: rgba(0,0,0,.6);
+	padding: .5rem .5rem;
+}
+.face-hvr:hover{
+	color: #3b5998;	
+}
+
+.insta-hvr{
+	transition: .3s;
+	color: rgba(0,0,0,.6);
+	padding: .5rem .5rem;
+}
+.insta-hvr:hover{
+	color: #ff004e;
+}
+
+.bg-video{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+}
+
+#loader{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	top: 0;
+	left: 0;
+	background-color: #080808;
+	background-image: url('../img/load.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 9999;
+}
